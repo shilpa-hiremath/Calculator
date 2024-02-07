@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculator {
+public class calculator extends ExtendedArithmeticOperation{
 
     public static float addition(float op1,float op2)
     {
@@ -21,6 +21,7 @@ public class calculator {
     }
 
     public static void main(String[] args) {
+        
         Scanner in = new Scanner(System.in);
         System.out.println("Enter two number\n");
 
@@ -35,6 +36,7 @@ public class calculator {
         System.out.println(" Subtration of Two number:"+substraction(num1, num2));
         System.out.println("Multiplication of Two number:"+multiplication(num1, num2));
         System.out.println("Division of Two number:"+division(num1, num2));
+        System.out.println("Square Root of number:"+SquareRoot(num1));
 
 
 
